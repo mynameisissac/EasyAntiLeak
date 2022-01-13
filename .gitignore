@@ -36,6 +36,9 @@
 *.out
 *.app
 
+# testing files
+test.*
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
