@@ -13,7 +13,7 @@ int main(){
 
 	// create input and output file stream instances
 	ifstream userSourceCode("put your file inside/" + fileName);
-	ofstream modifiedUserCode("put your file inside/modified_" + fileName);
+	ofstream modifiedUserCode("put your file inside/modified.cpp");
 
 	insertHeaders(modifiedUserCode);
 	modifyFile(userSourceCode, modifiedUserCode);
