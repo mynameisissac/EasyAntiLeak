@@ -6,15 +6,13 @@ std::ofstream lo_G_6987("result.log");
 #include <iostream>
 using namespace std; 
 
-int* memoryLeak(){
 
 
-lo_G_6987 << "newing at line 6\n";    return new int;
-}
 
 int main(){ 
 
-    // nothing
+    int* p = new int;
+lo_G_6987 << "newing at line 9\n";
 
     return 0;
 }

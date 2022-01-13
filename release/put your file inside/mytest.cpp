@@ -1,14 +1,12 @@
 #include <iostream>
 using namespace std; 
 
-int* memoryLeak(){
 
-    return new int;
-}
+
 
 int main(){ 
 
-    // nothing
+    int* p = new int;
 
     return 0;
 }
